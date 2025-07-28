@@ -1,8 +1,6 @@
-
 # 💬 Heroku Go Chat
 
 Heroku Go Chat is a command-line chat client written in Go that lets you interact with Heroku's Claude-4-Sonnet model using a simple and efficient interface. It supports real-time chat, persistent conversation history, tagging, and easy navigation of past interactions. The tool is designed for quick local use or seamless deployment to Heroku, and is ideal for developers, experimenters, and anyone who wants a fast, scriptable AI chat experience.
-
 
 ## 🚀 Getting Started
 
@@ -39,26 +37,26 @@ These commands will:
 - Reload your shell configuration
 
 **Note:**
+
 - Replace `~/path/to/herochat` with the actual path to your `herochat` binary.
 - Replace `https://your-inference-url.heroku.com` with your actual INFERENCE_URL from your Heroku app.
 - Replace `inf-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` with your actual INFERENCE_KEY from your Heroku app dashboard.
 
-
 ## 🛠️ Main Functionalities & Commands
 
 - **Chat with AI**: Start a new conversation or continue a tagged thread directly from your terminal.
-    - Usage: `hc <tag> <prompt>`
-    - Example: `hc projectX "Summarize the last meeting notes"`
-    - The `<tag>` allows you to group related conversations for context continuity.
 
+  - Usage: `hc <tag> <prompt>`
+  - Example: `hc projectX "Summarize the last meeting notes"`
+  - The `<tag>` allows you to group related conversations for context continuity.
 - **View History**: List all previous conversations, optionally filtered by tag.
-    - Usage: `hc history [tag]`
-    - Example: `hc history projectX`
 
+  - Usage: `hc history [tag]`
+  - Example: `hc history projectX`
 - **Navigate Conversations**: Interactively browse through your conversation history, moving forward and backward, or selecting by ID.
-    - Usage: `hc navigate [tag]`
-    - Example: `hc navigate projectX`
 
+  - Usage: `hc navigate [tag]`
+  - Example: `hc navigate projectX`
 - **Persistent Storage**: All conversations are saved in `conversations.json` for later review or analysis.
 
 ### Example Workflow
@@ -96,13 +94,6 @@ See the section below for alias and environment setup to use the `hc` command co
    ```bash
    go mod tidy
    ```
-
-### 🏃 Running Locally
-
-```bash
-go run main.go
-```
-
 
 ### ☁️ Deployment to Heroku
 
