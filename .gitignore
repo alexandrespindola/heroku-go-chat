@@ -1,0 +1,99 @@
+# History json
+conversations.json
+
+# Compiled binaries (executables)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+
+# Code coverage files
+*.out
+coverage.txt
+coverage.html
+
+# Dependency directories (when using vendor)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Build files
+dist/
+build/
+
+# Bin files
+herochat
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local configuration files
+config.local.yaml
+config.local.json
+*.local.conf
+
+# Cache directories
+.cache/
+
+# Profiling files
+cpu.prof
+mem.prof
+profile.prof
+
+# Air (hot reload tool)
+tmp/
+
+# Delve debugger
+__debug_bin
+
+# GoLand
+.idea/
+
+# VS Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
