@@ -1,6 +1,6 @@
 # 💬 HeroChat - Heroku Go Chat
 
-Heroku Go Chat is a command-line chat client written in Go that lets you interact with Heroku's Claude-4-Sonnet model using a simple and efficient interface. It supports real-time chat, persistent conversation history, tagging, and easy navigation of past interactions. The tool is designed for quick local use or seamless deployment to Heroku, and is ideal for developers, experimenters, and anyone who wants a fast, scriptable AI chat experience.
+HeroChat is a command-line chat client written in Go that lets you interact with Heroku's Claude-4-Sonnet model using a simple and efficient interface. It supports real-time chat, persistent conversation history, tagging, and easy navigation of past interactions. The tool is designed for quick local use or seamless deployment to Heroku, and is ideal for developers, experimenters, and anyone who wants a fast, scriptable AI chat experience.
 
 ## 🚀 Getting Started
 
